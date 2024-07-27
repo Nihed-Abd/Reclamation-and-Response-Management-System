@@ -25,20 +25,8 @@ Composer for dependency management
 Installation
 Clone the repository:
 
-bash
-Copier le code
 git clone https://github.com/yourusername/reclamation-response-system.git
-Navigate to the project directory:
 
-bash
-Copier le code
-cd reclamation-response-system
-Install dependencies using Composer:
-
-bash
-Copier le code
-composer install
-Configure the database:
 
 Create a MySQL database
 Import the provided SQL schema into the database
@@ -49,9 +37,6 @@ Register your site with Google reCAPTCHA
 Add your site and secret keys to the config/recaptcha.php file
 Start the server:
 
-bash
-Copier le code
-php -S localhost:8000
 Usage
 Access the application: Open a web browser and navigate to http://localhost:8000
 Admin login: Use the credentials set during the installation process to access the admin interface
